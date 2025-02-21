@@ -1,0 +1,66 @@
+/* Michael DeVito II */
+/* Unit 4 Exercise */
+
+/* Question 1 */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+/* Question 2 */
+em {
+    color: darkgreen;
+}
+/* Question 3 */
+strong {
+    color: blue;
+}
+/* Question 4 */
+p::first-letter {
+    font-size: 30px;
+}
+/* Quesiton 5 */
+blockquote {
+    text-indent: 30px;
+    font-size: 15px;
+    font-style: italic;
+    background-color: lightgray;
+}
+/* Question 6 */
+@font-face { /* found at: https://www.fontspace.com/bigparty4blue-font-f85429 */
+    font-family: 'BigParty4Blue';
+    src: url(/fonts/BigParty4Blue.ttf);
+}
+blockquote {
+    font-family: 'BigParty4Blue';
+}
+/* Question 7 */
+dfn {
+    text-shadow: 1px 1px 3px green;
+}
+/* Question 8 */
+a {
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+/* Question 9 */
+ul.foods {
+    list-style-image: url(/media/sandwich.jpg);
+}
+/* Question 10 */
+ol {
+    list-style-type: lower-roman;
+}
+/* Question 11 */
+dt {
+    font-weight: bold;
+    font-stretch: expanded;
+}
+dd {
+    padding-bottom: 20px;
+    font-style: italic;
+    text-indent: -40px;
+}
