@@ -42,6 +42,14 @@ a {
     color: orange;
     text-decoration: none;
 }
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: underline;
+    text-shadow: 10px;
+}
 a:hover {
     color: red;
     text-decoration: none;
